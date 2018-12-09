@@ -1,4 +1,4 @@
-client.on('ready', () => {
+Client.on('ready', () => {
 var x = client.channels.get("520929193085632512");
 if (x) x.join();
 });
